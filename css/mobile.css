@@ -1,0 +1,127 @@
+
+/* Mobile screen */
+
+/* Header/nav bar */
+
+header{
+    height: 150px;
+}
+nav{
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo{
+    justify-content: center;
+}
+
+.bar{
+    justify-content: center;
+}
+
+.bar ul a{
+    padding: 10px 5px;
+}
+
+.ptss img{
+    width: 80px;
+}
+
+.usha img{
+    width: 140px;
+    height: 60px;
+}
+
+/* section */
+
+/* landing page */
+
+.land{
+    background: url('../images/mobileland.jpg') no-repeat center center/cover;
+    padding-top: 160px;
+}
+
+/* icons */
+
+.icon{
+    flex-direction: column;
+}
+
+.icon-items{
+    width: 100%;
+    text-align: center;
+}
+
+/* joining section */
+
+.join{
+    flex-direction: column;
+}
+
+.join-item{
+    width:100%;
+}
+
+.join-content {
+    font-size: 12px ;
+    text-align: center;
+}
+
+/* professional section */
+
+.professional{
+    flex-direction: column;
+}
+
+.sadhana,
+.kakali,
+.ashoke{
+    width: 100%;
+}
+
+/* About page */
+
+/* Goal Section */
+
+.goal{
+    flex-direction: column;
+}
+
+.goal-item{
+    width: 100%;
+}
+
+/* Contact Page */
+
+.contact-heading{
+    padding-left: 40px;
+    padding-bottom: 80px;
+    font-size: 24px;
+}
+
+/* form */
+
+.contact-form{
+    width: 75%;
+}
+
+.contact-icon{
+    flex-direction: column;
+}
+
+.contact-item{
+    width: 100%;
+}
+
+.mask iframe{
+    width: 80%;
+    height: 100%;
+}
+
+.gallery{
+    flex-direction: column;
+}
+
+.gallery img{
+    width: 80%;
+}
