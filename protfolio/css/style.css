@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+  }
+
 /* Landing Page */
 
 #land{
@@ -355,7 +359,6 @@ section .imgbox img{
     font-size: 16px;
     color: #666;
     font-weight: 700;
-    text-transform: uppercase;
 }
 
 .input-feild label{
@@ -493,3 +496,19 @@ section .imgbox img{
 #footer p:hover{
     opacity: 1;
 }
+
+.gotopbtn{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: #27ae60;
+    bottom: 40px;
+    right: 50px;
+  
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 22px;
+  }
+  
