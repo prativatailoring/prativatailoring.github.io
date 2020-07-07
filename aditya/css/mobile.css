@@ -1,0 +1,100 @@
+.menuicon{
+    position: fixed;
+    top: 40px;
+    right: 40px;
+    width: 30px;
+    height: 30px;
+    background: url('../images/menu.png') no-repeat center center/cover;
+    cursor: pointer;
+    filter: invert(1);
+    z-index: 1000;
+    background-size: 30px;
+}
+
+.menuicon.active{
+    background: url('../images/close.png') no-repeat center center/cover;
+    cursor: pointer;
+    filter: invert(1);
+    z-index: 1000;
+    background-size: 30px;
+}
+
+.nav{
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.541);
+    flex-direction: column;
+    padding: 50px;
+    z-index: 1000;
+}
+
+.nav.active{
+    left:0px;
+}
+
+.nav li{
+    margin: 8px 0px;
+}
+
+#land{
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+}
+
+#land:before{
+    clip-path: polygon(0 0, 100% 0, 100% 10%, 0 26%);
+}
+
+section .landing h2{
+    font-size: 1.5rem;
+}
+
+section .landing p{
+    font-size: 1rem;
+}
+
+section .landing{
+    padding:10px;
+}
+
+section .landing a{
+    font-size: 0.8em;
+    padding: 10px;
+}
+
+section .imgbox{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0;
+    margin-top: 20px;
+}
+
+section .imgbox img{
+    max-width: 300px;
+}
+
+/* About Section */
+
+#about{
+    padding: 50px 10px;
+}
+
+#about .about-info{
+    font-size: 20px;
+}
+
+/* Contact Page */
+
+#contact{
+    min-height: 120vh;
+}
+
+.wrapper{
+    padding: 40px 8px;
+    width: 80%;
+}

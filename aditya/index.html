@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Protfolio | Aditya Saha</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" media="screen and (max-width:800px) " href="css/mobile.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Open+Sans:wght@600&family=PT+Sans+Narrow&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,600;1,700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <section id="land">
+    <div class="landing">
+      <div>
+        <h2>ADITYA SAHA</h2>
+        <p>Carrier Objective:-
+          <span class="txt-type" data-wait="3000" data-words='["Intent", "To", "Serve", "For","Humanity"]'></span>
+        </p>
+        <a href="#">Learn More</a>
+      </div>
+    </div>
+    <div class="imgbox">
+      <img src="./images/land.png" alt="Aditya">
+    </div>
+    <ul class="nav" id="nav">
+      <li><a href="#land">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skillset">Skills</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </section>
+
+  <!-- About Section -->
+
+  <section id="about">
+    <div class="about-heading" data-aos="fade-down">
+      <h1>About Me</h1>
+    </div>
+    <div class="about-img" data-aos="fade-up">
+      <img src="./images/aditya.png" alt="Aditya Saha">
+    </div>
+    <div class="about-info" data-aos="fade-right">
+      <p>I am a second year student of B.tech(ECE) at NIT AGARTALA.My adoration for programming motivates me to
+        progress in the feild of C,C++,Competitive programming,image processing,IOT and Data Analytics.To be a
+        part of an Institution, I can fully utilize my skills and make a significant contribution to the success
+        of that organization.At the same time I will work on my individual growth through continuous learning
+        and intent to solve the diagnostic & methodical problems of humans life.</p>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+
+  <section id="education">
+    <div class="education-heading" data-aos="fade-down">
+      <h1>Education</h1>
+    </div>
+    <div class="education-content">
+      <div class="college" data-aos="fade-up">
+        <h2>NATIONAL INSITITUTE OF TECHNOLOGY, AGARATALA</h2>
+        <h4>B.tech</h4>
+        <h3>ELECTRONICS AND COMMUNICATION ENGINEERING</h3>
+        <p>Present</p>
+        <p>From: 24th July,2019</p>
+      </div>
+      <div class="school" data-aos="fade-right">
+        <h2>SRI KRISHNA MISSION SCHOOL</h2>
+        <h4>Class 12: 94%(PCM)</h4>
+        <h4>Class 10: 9.8(CGPA)</h4>
+        <p>From: 17th April,2007</p>
+        <p>To: March,2019</p>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="skillset">
+    <div class="skillset-heading" data-aos="fade-up">
+      <h2>My Skills</h2>
+    </div>
+    <div class="skills">
+      <div class="skill" data-aos="fade-right">
+        <div class="skill-name">HTML</div>
+        <div class="skill-bar">
+          <div class="skill-per" per="90"></div>
+        </div>
+      </div>
+
+      <div class="skill" data-aos="fade-right">
+        <div class="skill-name">CSS</div>
+        <div class="skill-bar">
+          <div class="skill-per" per="70"></div>
+        </div>
+      </div>
+
+      <div class="skill" data-aos="fade-right">
+        <div class="skill-name">Javascript</div>
+        <div class="skill-bar">
+          <div class="skill-per" per="40"></div>
+        </div>
+      </div>
+
+      <div class="skill" data-aos="fade-right">
+        <div class="skill-name">C++</div>
+        <div class="skill-bar">
+          <div class="skill-per" per="50"></div>
+        </div>
+      </div>
+
+      <div class="skill" data-aos="fade-right">
+        <div class="skill-name">C</div>
+        <div class="skill-bar">
+          <div class="skill-per" per="60"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form -->
+
+  <div id="contact">
+    <div class="wrapper">
+      <h2>Connect</h2>
+      <form action="">
+
+        <div class="input-feild">
+          <input type="text" name="" id="name" required>
+          <label for="name">Name</label>
+        </div>
+
+        <div class="input-feild">
+          <input type="email" name="" id="email" required>
+          <label for="email">Email</label>
+        </div>
+
+        <div class="input-feild">
+          <input type="number" name="" id="tel" required>
+          <label for="tel">Phone No</label>
+        </div>
+
+        <div class="input-feild">
+          <textarea name="" id="message" cols="30" rows="6" required></textarea>
+          <label for="message">Message</label>
+        </div>
+
+        <input type="submit" value="Send Message" class="btn">
+      </form>
+    </div>
+  </div>
+
+  <!-- Bottom Part -->
+
+  <section id="bottom">
+
+  </section>
+
+
+  <!-- For Toogle in mobile -->
+
+  <span class="menuicon" id="toggle" onclick="menuToggle()"></span>
+
+  <!-- Javascript  -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 220,
+      duration: 1000
+    })
+  </script>
+
+  <script src="./javascript/main.js"></script>
+
+  <script>
+    $('.skill-per').each(function () {
+      var $this = $(this);
+      var per = $this.attr('per');
+      $this.css("width", per + '%');
+      $({ animatedValue: 0 }).animate({ animatedValue: per }, {
+        duration: 1000,
+        step: function () {
+          $this.attr('per', Math.floor(this.animatedValue) + '%');
+        },
+        complete: function () {
+          $this.attr('per', Math.floor(this.animatedValue) + '%');
+        }
+      });
+    });
+  </script>
+</body>
+
+</html>
