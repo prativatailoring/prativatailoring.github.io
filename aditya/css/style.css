@@ -407,6 +407,89 @@ section .imgbox img{
 
 #bottom{
     width: 100%;
-    min-height: 80vh;
+    min-height: 50vh;
     background: #0f3959;
+}
+
+.bottom-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.address,
+.mail,
+.phone{
+    display: flex;
+    align-items: center;
+}
+
+.a-content{
+    display: flex;
+    flex-direction: column;
+}
+.address img,
+.mail img,
+.phone img{
+    width: 40px;
+    height: 40px;
+    filter: invert(1);
+    margin: 15px 15px;
+    opacity: 0.5;
+}
+
+.address img:hover,
+.mail img:hover,
+.phone img:hover{
+    opacity: 1;
+}
+
+.address p,
+.mail p,
+.phone p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    filter: invert(1);
+    opacity: 0.5;
+}
+
+.address p:hover,
+.mail p:hover,
+.phone p:hover{
+    opacity: 1;
+}
+
+.bottom-social{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.bottom-social img{
+    filter: invert(1);
+    opacity: 0.5;
+    margin: 8px;
+    height: 20px;
+    width: 20px;
+}
+
+.bottom-social img:hover{
+    opacity: 1;
+}
+
+#footer{
+    background: #0f3959;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 30px;
+    font-weight: 800;
+}
+
+#footer p{
+    filter: invert(1);
+    opacity: 0.5;
+}
+
+#footer p:hover{
+    opacity: 1;
 }
